@@ -26,7 +26,7 @@ BOARD_PREBUILT_DT := device/htc/m8qlul/prebuilt/dt
 
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TW_THEME := portrait_hdpi
-TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO := false
 TW_NO_SCREEN_BLANK := true
 
 # HTC M8s recovery partition is 0x02000000 (32 MiB)
