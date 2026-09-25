@@ -36,3 +36,8 @@ TW_NO_SCREEN_BLANK := true
 # Compress the recovery ramdisk with LZMA to minimise recovery.img size.
 BOARD_RAMDISK_USE_LZMA := true
 LZMA_RAMDISK_TARGETS := recovery
+# Reduce recovery image size
+TW_EXTRA_LANGUAGES := false
+TW_EXCLUDE_BASH := true
+TW_EXCLUDE_NTFS_3G := true
+TW_EXCLUDE_TWRPAPP := true
