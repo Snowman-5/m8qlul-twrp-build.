@@ -1,9 +1,0 @@
-/system      ext4  /dev/block/platform/soc.0/7824900.sdhci/by-name/system
-/data        ext4  /dev/block/platform/soc.0/7824900.sdhci/by-name/userdata
-/cache       ext4  /dev/block/platform/soc.0/7824900.sdhci/by-name/cache
-/boot        emmc  /dev/block/platform/soc.0/7824900.sdhci/by-name/boot
-/recovery    emmc  /dev/block/platform/soc.0/7824900.sdhci/by-name/recovery
-/misc        emmc  /dev/block/platform/soc.0/7824900.sdhci/by-name/misc
-/firmware/radio vfat /dev/block/platform/soc.0/7824900.sdhci/by-name/radio
-/firmware/wcnss vfat /dev/block/platform/soc.0/7824900.sdhci/by-name/wcnss
-/external_sd auto /dev/block/mmcblk1p1 flags=display="Micro SDcard";storage;wipeingui;removable
