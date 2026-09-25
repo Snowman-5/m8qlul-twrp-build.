@@ -29,7 +29,6 @@ TW_THEME := portrait_hdpi
 TW_INCLUDE_CRYPTO := true
 TW_NO_SCREEN_BLANK := true
 # HTC M8s recovery partition is 0x02000000 (32 MiB)
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 33554432
 
-# Use stronger compression for the recovery ramdisk
+# Size checked manually because this old Omni build breaks with BOARD_RECOVERYIMAGE_PARTITION_SIZE.
 BOARD_RAMDISK_USE_LZMA := true
